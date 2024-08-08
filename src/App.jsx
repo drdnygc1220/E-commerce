@@ -1,20 +1,23 @@
 import "./App.css";
-import Categories from "./components/Categories/Categories";
-import Footer from "./components/Layout/Footer/Footer";
-import Header from "./components/Layout/Header/Header";
-import Policy from "./components/Layout/Policy/Policy";
-import Sliders from "./components/Slider/Sliders";
+import AuthPage from "./pages/AuthPage";
+import BlogDetailsPage from "./pages/BlogDetailsPage";
+import BlogPage from "./pages/BlogPage";
+import HomePage from "./pages/HomePage";
+import React from "react";
 
 function App() {
   //ana komponent;tüm komponentler app içerisinde render edilecek
   return (
 
     <div>
-      <Header />
-     <Sliders/>
-     <Categories/>
-      <Policy />
-      <Footer />
+      <React.Fragment>
+    {/* <HomePage/> */}
+    {/* <ShopPage/> */}
+    {/* <ContactPage/> */}
+    {/* <AuthPage/> */}
+    {/* <BlogPage/> */}
+    <BlogDetailsPage/>
+    </React.Fragment>
     </div>
 
   );
