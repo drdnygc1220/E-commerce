@@ -4,6 +4,7 @@ import BlogDetailsPage from "./pages/BlogDetailsPage";
 import BlogPage from "./pages/BlogPage";
 import HomePage from "./pages/HomePage";
 import React from "react";
+import ProductDetailsPage from "./pages/ProductDetailsPage";
 
 function App() {
   //ana komponent;tüm komponentler app içerisinde render edilecek
@@ -16,7 +17,8 @@ function App() {
     {/* <ContactPage/> */}
     {/* <AuthPage/> */}
     {/* <BlogPage/> */}
-    <BlogDetailsPage/>
+    {/* <BlogDetailsPage/> */}
+    <ProductDetailsPage/>
     </React.Fragment>
     </div>
 
