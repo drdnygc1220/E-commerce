@@ -3,8 +3,10 @@ import SliderItem from "./SliderItem";
 import "./Sliders.css";
 
 const Sliders = () => {
+  //bir tane gözüksün resimlerden state bagladım.
   const [currentSlide, setCurrentSlide] = useState(0);
 
+  //butonları tetikledik
   const nextSlide = () => {
     setCurrentSlide((prevSlide) => (prevSlide + 1) % 3);
   };

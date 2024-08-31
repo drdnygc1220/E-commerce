@@ -19,6 +19,7 @@ function App() {
     {/* <BlogPage/> */}
     {/* <BlogDetailsPage/> */}
     <ProductDetailsPage/>
+    
     </React.Fragment>
     </div>
 
